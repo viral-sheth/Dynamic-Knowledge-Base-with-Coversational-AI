@@ -1,0 +1,16 @@
+company_name,ticker_symbol,base_domain,known_provider_portal,market_share,priority
+United Healthcare,UNH,uhc.com,https://www.uhcprovider.com/,14.2,high
+Anthem/Elevance Health,ELV,anthem.com,https://providers.anthem.com/,9.4,high
+Aetna (CVS Health),CVS,aetna.com,https://www.aetna.com/health-care-professionals.html,7.7,high
+Kaiser Permanente,KP,kp.org,https://provider.kaiserpermanente.org/,6.2,high
+Centene Corporation,CNC,centene.com,https://provider.centene.com/,6.0,high
+Humana,HUM,humana.com,https://provider.humana.com/,4.6,medium
+Cigna Healthcare,CI,cigna.com,https://www.cigna.com/healthcare-professionals/,4.1,medium
+Molina Healthcare,MOH,molinahealthcare.com,https://provider.molinahealthcare.com/,2.2,medium
+Independence Blue Cross,INDEP,ibx.com,https://www.ibx.com/providers/,1.8,medium
+Health Care Service Corporation,HCSC,hcsc.com,https://www.hcsc.com/providers/,1.5,medium
+Blue Cross Blue Shield of Michigan,BCBSM,bcbsm.com,https://www.bcbsm.com/providers/,1.3,low
+Highmark,HMRK,highmark.com,https://www.highmark.com/providers/,1.2,low
+Florida Blue,FLBLUE,floridablue.com,https://www.floridablue.com/providers/,1.1,low
+Blue Cross of California,BCCA,blueshieldca.com,https://www.blueshieldca.com/provider/,1.0,low
+Wellcare,WCG,wellcare.com,https://provider.wellcare.com/,0.9,low

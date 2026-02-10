@@ -1,0 +1,42 @@
+GROQ_API_KEY=your-groq-api-key-here
+
+AZURE_STORAGE_CONNECTION_STRING="DefaultEndpointsProtocol=https;AccountName=your-account-name;AccountKey=your-account-key;EndpointSuffix=core.windows.net"
+AZURE_CONTAINER_NAME=pdfs
+AZURE_JSON_CONTAINER=policy-json
+
+PGHOST=your-postgres-hostname
+PGPORT=5432
+PGDATABASE=healthcare_knowledge_base
+PGUSER=healthcare_user@your-postgres-hostname
+PGPASSWORD=your-postgres-password
+
+PROCESSOR_MODEL=prebuilt-document
+
+DOCUMENT_INTELLIGENCE_ENDPOINT=https://your-doc-intelligence-resource.cognitiveservices.azure.com/
+DOCUMENT_INTELLIGENCE_KEY=your-doc-intelligence-key
+
+HF_TOKEN=your-huggingface-token
+HF_MODEL=Qwen/Qwen2.5-Coder-32B-Instruct
+
+CONFIDENCE_THRESHOLD=0.6
+ENABLE_AI_FALLBACK=true
+MAX_RETRIES=2
+AI_TIMEOUT=60
+MAX_WORKERS=1
+LOG_LEVEL=INFO
+
+# Optional: OpenAI config
+#OPENAI_API_KEY=your-openai-api-key
+#OPENAI_MODEL=gpt-4o-mini
+
+ENABLE_LLM=true
+
+GROQ_MODEL=llama-3.1-8b-instant
+DOCLING_OCR=false
+
+# Optional: local Ollama config
+#USE_OLLAMA=true
+#OLLAMA_MODEL=llama3.1:8b
+#OLLAMA_HOST=http://localhost:11434
+
+AZURE_BLOB_PREFIX="United Healthcare/2025-11"

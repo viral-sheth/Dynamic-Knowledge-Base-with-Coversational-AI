@@ -1,0 +1,561 @@
+{
+  "metadata": {
+    "export_timestamp": "2025-11-28T01:15:00.000000",
+    "total_rules": 132,
+    "total_pdfs_discovered": 1261,
+    "successful_crawlers": [
+      "targeted_healthcare_crawler",
+      "single_company_targeted_crawler",
+      "unified_intelligent_crawler"
+    ],
+    "payers_covered": [
+      "United Healthcare",
+      "CountyCare Health Plan", 
+      "Cigna",
+      "Florida Blue"
+    ],
+    "database": "healthcare_knowledge_base",
+    "export_version": "3.0",
+    "last_update": "combined_crawler_results",
+    "crawl_date_range": "2025-11-20 to 2025-11-28"
+  },
+  "crawler_performance_summary": {
+    "targeted_healthcare_crawler": {
+      "total_pdfs": 1144,
+      "successful_companies": ["United Healthcare", "CountyCare"],
+      "failed_companies": ["Anthem", "Aetna", "Humana", "Cigna"],
+      "rule_distribution": {
+        "prior_authorization": 1128,
+        "billing_nuances": 9,
+        "appeals": 7,
+        "timely_filing": 0
+      }
+    },
+    "single_company_cigna_crawler": {
+      "total_pdfs": 117,
+      "company": "Cigna",
+      "rule_distribution": {
+        "appeals": 58,
+        "prior_authorization": 37,
+        "billing_nuances": 22,
+        "timely_filing": 0
+      }
+    },
+    "unified_crawler_additions": {
+      "total_new_rules": 10,
+      "payers_added": ["Florida Blue", "United Healthcare"]
+    }
+  },
+  "summary": {
+    "rules_by_type": {
+      "appeals": 28,
+      "claims": 84,
+      "prior_authorization": 8,
+      "timely_filing": 2,
+      "general": 7,
+      "forms": 3
+    },
+    "rules_by_payer": {
+      "unknown": 122,
+      "Florida Blue": 5,
+      "United Healthcare": 5,
+      "CountyCare Health Plan": 34,
+      "Cigna": 117
+    },
+    "total_pdfs_processed_for_rules": 132,
+    "geographic_coverage": "50+ US states",
+    "rule_confidence_threshold": "0.8000"
+  },
+  "rules": [
+    {
+      "rule_id": 37,
+      "rule_type": "appeals",
+      "rule_title": "CountyCare Health Plan Appeals Policy",
+      "rule_content": "sportation  \n4.60 behavioral health  \n4.70 service package 2 covered services   \n4.80 hcbs services  \n4.90 nursing facility services  \n4.100  non-covered services  \n chapter 5 enrollee  grievance and ...",
+      "page_number": 2,
+      "confidence_score": "0.8000",
+      "payer_name": "CountyCare Health Plan",
+      "filename": "mcomanual.pdf"
+    },
+    {
+      "rule_id": 48,
+      "rule_type": "appeals",
+      "rule_title": "CountyCare Health Plan Appeals Policy",
+      "rule_content": "health plans must maintain a complaint and resolution process for  provider s.  if a provider  \ndisagrees with a policy, decision, or procedure, the provider  should follow the health plan  \nprovider ...",
+      "page_number": 13,
+      "confidence_score": "0.8000",
+      "payer_name": "CountyCare Health Plan",
+      "filename": "mcomanual.pdf"
+    },
+    {
+      "rule_id": 55,
+      "rule_type": "appeals",
+      "rule_title": "CountyCare Health Plan Appeals Policy",
+      "rule_content": "illinois department of healthcare and family services managed care manual  for medicaid providers  \n  \n \n \npage 25 of 35 \n chapter 5 enrollee  grievance and appeals   \n \neach health plan is required t...",
+      "page_number": 25,
+      "confidence_score": "0.8000",
+      "payer_name": "CountyCare Health Plan",
+      "filename": "mcomanual.pdf"
+    },
+    {
+      "rule_id": 57,
+      "rule_type": "appeals",
+      "rule_title": "CountyCare Health Plan Appeals Policy",
+      "rule_content": "suspension, or termination of a  previously authorized serv ice; (iii) the denial of payment for a \nservice; (iv) the failure to provide services in a timely manner; (v) the failure to respond to an \n...",
+      "page_number": 29,
+      "confidence_score": "0.8000",
+      "payer_name": "CountyCare Health Plan",
+      "filename": "mcomanual.pdf"
+    },
+    {
+      "rule_id": 60,
+      "rule_type": "appeals",
+      "rule_title": "CountyCare Health Plan Appeals Policy",
+      "rule_content": "d of  charging which bills for each service or encounter rendered.  \nfraud: knowing and willful deception, or a reckless disregard of the facts, with the intent to \nreceive an unauthorized benefit.  \n...",
+      "page_number": 31,
+      "confidence_score": "0.8000",
+      "payer_name": "CountyCare Health Plan",
+      "filename": "mcomanual.pdf"
+    },
+    {
+      "rule_id": 98,
+      "rule_type": "appeals",
+      "rule_title": "CountyCare Health Plan Appeals Policy",
+      "rule_content": "sportation  \n4.60 behavioral health  \n4.70 service package 2 covered services   \n4.80 hcbs services  \n4.90 nursing facility services  \n4.100  non-covered services  \n chapter 5 enrollee  grievance and ...",
+      "page_number": 2,
+      "confidence_score": "0.8000",
+      "payer_name": "CountyCare Health Plan",
+      "filename": "mcomanual.pdf"
+    },
+    {
+      "rule_id": 109,
+      "rule_type": "appeals",
+      "rule_title": "CountyCare Health Plan Appeals Policy",
+      "rule_content": "health plans must maintain a complaint and resolution process for  provider s.  if a provider  \ndisagrees with a policy, decision, or procedure, the provider  should follow the health plan  \nprovider ...",
+      "page_number": 13,
+      "confidence_score": "0.8000",
+      "payer_name": "CountyCare Health Plan",
+      "filename": "mcomanual.pdf"
+    },
+    {
+      "rule_id": 116,
+      "rule_type": "appeals",
+      "rule_title": "CountyCare Health Plan Appeals Policy",
+      "rule_content": "illinois department of healthcare and family services managed care manual  for medicaid providers  \n  \n \n \npage 25 of 35 \n chapter 5 enrollee  grievance and appeals   \n \neach health plan is required t...",
+      "page_number": 25,
+      "confidence_score": "0.8000",
+      "payer_name": "CountyCare Health Plan",
+      "filename": "mcomanual.pdf"
+    },
+    {
+      "rule_id": 118,
+      "rule_type": "appeals",
+      "rule_title": "CountyCare Health Plan Appeals Policy",
+      "rule_content": "suspension, or termination of a  previously authorized serv ice; (iii) the denial of payment for a \nservice; (iv) the failure to provide services in a timely manner; (v) the failure to respond to an \n...",
+      "page_number": 29,
+      "confidence_score": "0.8000",
+      "payer_name": "CountyCare Health Plan",
+      "filename": "mcomanual.pdf"
+    },
+    {
+      "rule_id": 121,
+      "rule_type": "appeals",
+      "rule_title": "CountyCare Health Plan Appeals Policy",
+      "rule_content": "d of  charging which bills for each service or encounter rendered.  \nfraud: knowing and willful deception, or a reckless disregard of the facts, with the intent to \nreceive an unauthorized benefit.  \n...",
+      "page_number": 31,
+      "confidence_score": "0.8000",
+      "payer_name": "CountyCare Health Plan",
+      "filename": "mcomanual.pdf"
+    },
+    {
+      "rule_id": 38,
+      "rule_type": "claims",
+      "rule_title": "CountyCare Health Plan Claims Policy",
+      "rule_content": " 2.20 enrollment into medicaid  \n2.30 enrollment into a health plan  \n2.40  provider  contracting  \n2.50 provider  training  \n2.60 provider billing  \n2.70 encounter data  \n2.80 timely payment  \n2.90  ...",
+      "page_number": 2,
+      "confidence_score": "0.8000",
+      "payer_name": "CountyCare Health Plan",
+      "filename": "mcomanual.pdf"
+    },
+    {
+      "rule_id": 39,
+      "rule_type": "claims",
+      "rule_title": "CountyCare Health Plan Claims Policy",
+      "rule_content": " manual is not intended to \nsupersede, modify, or replace any policies, guidelines, or other provider  handbooks applicable \nto provider s in the medical assistance program under the f ee-for-service ...",
+      "page_number": 4,
+      "confidence_score": "0.8000",
+      "payer_name": "CountyCare Health Plan",
+      "filename": "mcomanual.pdf"
+    },
+    {
+      "rule_id": 40,
+      "rule_type": "claims",
+      "rule_title": "CountyCare Health Plan Claims Policy",
+      "rule_content": "ds navigate the healthcare system pursuant \nto the medicaid reform law ( public acts 096 -1501 and 97-689) and the federal affordable care \nact (public law 111- 148).  risk and performance is tied to ...",
+      "page_number": 5,
+      "confidence_score": "0.8000",
+      "payer_name": "CountyCare Health Plan",
+      "filename": "mcomanual.pdf"
+    },
+    {
+      "rule_id": 41,
+      "rule_type": "claims",
+      "rule_title": "CountyCare Health Plan Claims Policy",
+      "rule_content": "n impact, provider s are directed to the impact \nwebsite . \nthe effective date of enrollment for the eligible provider  will be established upon final approval \nof the application by the department . ...",
+      "page_number": 9,
+      "confidence_score": "0.8000",
+      "payer_name": "CountyCare Health Plan",
+      "filename": "mcomanual.pdf"
+    },
+    {
+      "rule_id": 44,
+      "rule_type": "claims",
+      "rule_title": "CountyCare Health Plan Claims Policy",
+      "rule_content": "h plans (pdf)  to become part of their network(s).  the contract \nnegotiated between the medicaid provider  and the medicaid health plan dictates the \nrelationship bet ween the two parties, including ...",
+      "page_number": 10,
+      "confidence_score": "0.8000",
+      "payer_name": "CountyCare Health Plan",
+      "filename": "mcomanual.pdf"
+    },
+    {
+      "rule_id": 46,
+      "rule_type": "claims",
+      "rule_title": "CountyCare Health Plan Claims Policy",
+      "rule_content": "urposes of  an enrollee's admission to a nursing f acility , a \"clean claim \" means that the \nadmission is reflected on the patient credit file that health plan receives from the department .  \n 2.90 ...",
+      "page_number": 12,
+      "confidence_score": "0.8000",
+      "payer_name": "CountyCare Health Plan",
+      "filename": "mcomanual.pdf"
+    },
+    {
+      "rule_id": 49,
+      "rule_type": "claims",
+      "rule_title": "CountyCare Health Plan Claims Policy",
+      "rule_content": "iliated provider  until an affiliated provider  was reached and \neither concurred with the treating non -affiliated provider 's plan of care or assumed \nresponsibility for the e nrollee's care.  such ...",
+      "page_number": 13,
+      "confidence_score": "0.8000",
+      "payer_name": "CountyCare Health Plan",
+      "filename": "mcomanual.pdf"
+    },
+    {
+      "rule_id": 50,
+      "rule_type": "claims",
+      "rule_title": "CountyCare Health Plan Claims Policy",
+      "rule_content": "on -affiliated provider s of school health center services outside \nof the health plan's contracting area. payments of such services will be according to \nthe hfs applicable medicaid fee-for-service  ...",
+      "page_number": 14,
+      "confidence_score": "0.8000",
+      "payer_name": "CountyCare Health Plan",
+      "filename": "mcomanual.pdf"
+    },
+    {
+      "rule_id": 51,
+      "rule_type": "claims",
+      "rule_title": "CountyCare Health Plan Claims Policy",
+      "rule_content": "n on-affiliated \nprovider  can continue to treat the enrollee for an initial 90- day transition period or \nthrough the postpartum period.  to do so, the non-affiliated provider  must agree to \naccept ...",
+      "page_number": 16,
+      "confidence_score": "0.8000",
+      "payer_name": "CountyCare Health Plan",
+      "filename": "mcomanual.pdf"
+    },
+    {
+      "rule_id": 52,
+      "rule_type": "claims",
+      "rule_title": "CountyCare Health Plan Claims Policy",
+      "rule_content": " those covered under medicaid, but health plans do so at \ntheir own expense.  these additional services are approved by the department  before being \noffered to their members.  the monthly capitation ...",
+      "page_number": 18,
+      "confidence_score": "0.8000",
+      "payer_name": "CountyCare Health Plan",
+      "filename": "mcomanual.pdf"
+    },
+    {
+      "rule_id": 54,
+      "rule_type": "claims",
+      "rule_title": "CountyCare Health Plan Claims Policy",
+      "rule_content": "f the enrollee.   \n \n4.40 dental services  \ndental services are provided through the health plans and the dental provider  must  bill the \nappropriate health plan 's de ntal administrator  to receive ...",
+      "page_number": 20,
+      "confidence_score": "0.8000",
+      "payer_name": "CountyCare Health Plan",
+      "filename": "mcomanual.pdf"
+    },
+    {
+      "rule_id": 56,
+      "rule_type": "claims",
+      "rule_title": "CountyCare Health Plan Claims Policy",
+      "rule_content": "h internal g rievance and \nappeals procedures under which medicaid enrollees, or an authorized representative acti ng \non their behalf, may make a c omplaint, challenge t he denial of coverage of, or ...",
+      "page_number": 25,
+      "confidence_score": "0.8000",
+      "payer_name": "CountyCare Health Plan",
+      "filename": "mcomanual.pdf"
+    },
+    {
+      "rule_id": 58,
+      "rule_type": "claims",
+      "rule_title": "CountyCare Health Plan Claims Policy",
+      "rule_content": "\ncahps: consumer assessment of health plans survey is a public -private initiative to develop \nstandardized surveys of patient's  experience with ambulatory and facility level care.  \ncapitation: the ...",
+      "page_number": 29,
+      "confidence_score": "0.8000",
+      "payer_name": "CountyCare Health Plan",
+      "filename": "mcomanual.pdf"
+    },
+    {
+      "rule_id": 59,
+      "rule_type": "claims",
+      "rule_title": "CountyCare Health Plan Claims Policy",
+      "rule_content": "ta: the compilation of data elements, as specified by the department  in written \nnotice, identifying an  encounter that includes information similar to that required in a claim for \nfee-for-service  ...",
+      "page_number": 30,
+      "confidence_score": "0.8000",
+      "payer_name": "CountyCare Health Plan",
+      "filename": "mcomanual.pdf"
+    },
+    {
+      "rule_id": 61,
+      "rule_type": "claims",
+      "rule_title": "CountyCare Health Plan Claims Policy",
+      "rule_content": "icaid providers  \n  \n \n \npage 35 of 35 \n chapter 8 links  \n    \n internet site  \nillinois department of healthcare and family services   \nadministrative rules  \nall kids program  \ncare coordination  \n...",
+      "page_number": 35,
+      "confidence_score": "0.8000",
+      "payer_name": "CountyCare Health Plan",
+      "filename": "mcomanual.pdf"
+    },
+    {
+      "rule_id": 42,
+      "rule_type": "prior_authorization",
+      "rule_title": "CountyCare Health Plan Prior Authorization Policy",
+      "rule_content": "come part of their network(s).  the contract \nnegotiated between the medicaid provider  and the medicaid health plan dictates the \nrelationship bet ween the two parties, including payment provisions, ...",
+      "page_number": 10,
+      "confidence_score": "0.8000",
+      "payer_name": "CountyCare Health Plan",
+      "filename": "mcomanual.pdf"
+    },
+    {
+      "rule_id": 45,
+      "rule_type": "prior_authorization",
+      "rule_title": "CountyCare Health Plan Prior Authorization Policy",
+      "rule_content": "s are available online to all affiliated provider s. each health plan has a \nprovider  portal where the provider  can go to learn administrative and r eferral  requirements and \nto make a request for ...",
+      "page_number": 11,
+      "confidence_score": "0.8000",
+      "payer_name": "CountyCare Health Plan",
+      "filename": "mcomanual.pdf"
+    },
+    {
+      "rule_id": 47,
+      "rule_type": "prior_authorization",
+      "rule_title": "CountyCare Health Plan Prior Authorization Policy",
+      "rule_content": "ble state contract.  \n \n2.110 non-affiliated providers  \nproviders who are not contracted with a health plan should not provide non- emergency \nservices to health plan enrollees unless they receive a ...",
+      "page_number": 13,
+      "confidence_score": "0.8000",
+      "payer_name": "CountyCare Health Plan",
+      "filename": "mcomanual.pdf"
+    },
+    {
+      "rule_id": 53,
+      "rule_type": "prior_authorization",
+      "rule_title": "CountyCare Health Plan Prior Authorization Policy",
+      "rule_content": "nder the medicaid clinic option \nor medicaid rehabilitation option.  \nsome health plans have a subcontractor specializing  in providing behavioral health services.  \nhealth plans can create their own ...",
+      "page_number": 20,
+      "confidence_score": "0.8000",
+      "payer_name": "CountyCare Health Plan",
+      "filename": "mcomanual.pdf"
+    },
+    {
+      "rule_id": 43,
+      "rule_type": "timely_filing",
+      "rule_title": "CountyCare Health Plan Timely Filing Policy",
+      "rule_content": "ation \nrequirements which may or may not coincide with the requirements the department  has in \nplace under fee-for-service . health plans may also establish,  via provider  subcontracts , \ndifferent ...",
+      "page_number": 10,
+      "confidence_score": "0.8000",
+      "payer_name": "CountyCare Health Plan",
+      "filename": "mcomanual.pdf"
+    },
+    {
+      "rule_id": 8,
+      "rule_type": "appeals",
+      "rule_title": "United Healthcare Appeals Policy",
+      "rule_content": "r affiliates. administrative services provided by united healthcare services, inc. or \nits affiliates.10. recredentialing process must include data from at least three of the following six sources:\n• ...",
+      "page_number": 23,
+      "confidence_score": "0.8000",
+      "payer_name": "United Healthcare",
+      "filename": "Credentialing-Plan-State-and-Federal-Regulatory-Addendum.pdf"
+    },
+    {
+      "rule_id": 10,
+      "rule_type": "appeals",
+      "rule_title": "United Healthcare Appeals Policy",
+      "rule_content": "and conditions for participation .\n3. a provider's claims become eligible for payment as of the date of the provider's credentialing application date . \nthe contractor shall not require a provider to ...",
+      "page_number": 27,
+      "confidence_score": "0.8000",
+      "payer_name": "United Healthcare",
+      "filename": "Credentialing-Plan-State-and-Federal-Regulatory-Addendum.pdf"
+    },
+    {
+      "rule_id": 14,
+      "rule_type": "appeals",
+      "rule_title": "United Healthcare Appeals Policy",
+      "rule_content": "es additional time for \nverification . all credentialing decisions must be made within 180 days of receipt of a completed application . \n((code of me rules 02-031-850 section (7)(g)(2)) .\n4. offer an ...",
+      "page_number": 32,
+      "confidence_score": "0.8000",
+      "payer_name": "United Healthcare",
+      "filename": "Credentialing-Plan-State-and-Federal-Regulatory-Addendum.pdf"
+    },
+    {
+      "rule_id": 22,
+      "rule_type": "appeals",
+      "rule_title": "United Healthcare Appeals Policy",
+      "rule_content": "ate health care consistent with the degree of learning and \nskill ordinarily possessed by a reputable health care provider practicing according to the applicable legal \nstandard of care .\nb) filing a ...",
+      "page_number": 63,
+      "confidence_score": "0.8000",
+      "payer_name": "United Healthcare",
+      "filename": "Credentialing-Plan-State-and-Federal-Regulatory-Addendum.pdf"
+    },
+    {
+      "rule_id": 1,
+      "rule_type": "appeals",
+      "rule_title": "United Healthcare Appeals Policy",
+      "rule_content": "\n• providing you with a different level or quality of services .  \n  \n8. applicable law may require or permit us to decline your request. if we decline your \nrequest, we will tell you why and you may ...",
+      "page_number": 14,
+      "confidence_score": "0.8000",
+      "payer_name": "United Healthcare",
+      "filename": "OSPP-UHCPROVIDER-COM-EN.pdf"
+    },
+    {
+      "rule_id": 2,
+      "rule_type": "appeals",
+      "rule_title": "United Healthcare Appeals Policy",
+      "rule_content": "request, unless we provide you with notice that it will take more than 45 days to \nrespond (in that case, we won't take more than 90 days to respond).   \n \nappeals  \n \n• if the business denies any of ...",
+      "page_number": 15,
+      "confidence_score": "0.8000",
+      "payer_name": "United Healthcare",
+      "filename": "OSPP-UHCPROVIDER-COM-EN.pdf"
+    },
+    {
+      "rule_id": 29,
+      "rule_type": "appeals",
+      "rule_title": "United Healthcare Appeals Policy",
+      "rule_content": "ate . either you (or we) may assert claims in the \nsmall claims court in hennepin county, minnesota or any other u.s. county in which we \nhave a principal business address, provided that the informal ...",
+      "page_number": 8,
+      "confidence_score": "0.8000",
+      "payer_name": "United Healthcare",
+      "filename": "TOU-UHCPROVIDER-COM-EN.pdf"
+    },
+    {
+      "rule_id": 32,
+      "rule_type": "appeals",
+      "rule_title": "United Healthcare Appeals Policy",
+      "rule_content": "rvices\") \nto access certain confidential information (as defined below) to efficiently perform eligibility \nchecks, facilitate electronic transmission of claims, check on reconsiderations, and verify ...",
+      "page_number": 13,
+      "confidence_score": "0.8000",
+      "payer_name": "United Healthcare",
+      "filename": "TOU-UHCPROVIDER-COM-EN.pdf"
+    },
+    {
+      "rule_id": 35,
+      "rule_type": "appeals",
+      "rule_title": "United Healthcare Appeals Policy",
+      "rule_content": "o access certain confidential \ninformation (as defined below)  made accessible at our discretion to efficiently check eligibility , \ncheck  benefits and claim status , submit claim considerations and ...",
+      "page_number": 15,
+      "confidence_score": "0.8000",
+      "payer_name": "United Healthcare",
+      "filename": "TOU-UHCPROVIDER-COM-EN.pdf"
+    },
+    {
+      "rule_type": "general",
+      "rule_text": "Provider resource document - see Electronic Funds Transfer Registration Instruction.pdf",
+      "payer": "Florida Blue",
+      "source_document": "Electronic Funds Transfer Registration Instruction.pdf",
+      "effective_date": "2025-01-01"
+    },
+    {
+      "rule_type": "forms",
+      "rule_text": "Required form for processing - see APO Contract Copy Request Form.pdf",
+      "payer": "Florida Blue",
+      "source_document": "APO Contract Copy Request Form.pdf",
+      "effective_date": "2025-01-01"
+    },
+    {
+      "rule_type": "general",
+      "rule_text": "Provider resource document - see Electronic Remittance Advice Request Instructions .pdf",
+      "payer": "Florida Blue",
+      "source_document": "Electronic Remittance Advice Request Instructions .pdf",
+      "effective_date": "2025-01-01"
+    },
+    {
+      "rule_type": "forms",
+      "rule_text": "Required form for processing - see Fee Schedule Request Form.pdf",
+      "payer": "Florida Blue",
+      "source_document": "Fee Schedule Request Form.pdf",
+      "effective_date": "2025-01-01"
+    },
+    {
+      "rule_type": "forms",
+      "rule_text": "Required form for processing - see Group-Facility Contract Copy Request Form.pdf",
+      "payer": "Florida Blue",
+      "source_document": "Group-Facility Contract Copy Request Form.pdf",
+      "effective_date": "2025-01-01"
+    },
+    {
+      "rule_type": "general",
+      "rule_text": "Provider resource document - see OSPP-UHCPROVIDER-COM-EN.pdf",
+      "payer": "United Healthcare",
+      "source_document": "OSPP-UHCPROVIDER-COM-EN.pdf",
+      "effective_date": "2025-01-01"
+    },
+    {
+      "rule_type": "general",
+      "rule_text": "Provider resource document - see Credentialing-Plan-State-and-Federal-Regulatory-Addendum.pdf",
+      "payer": "United Healthcare",
+      "source_document": "Credentialing-Plan-State-and-Federal-Regulatory-Addendum.pdf",
+      "effective_date": "2025-01-01"
+    },
+    {
+      "rule_type": "general",
+      "rule_text": "Provider resource document - see Terms of useopen_in_new.pdf",
+      "payer": "United Healthcare",
+      "source_document": "Terms of useopen_in_new.pdf",
+      "effective_date": "2025-01-01"
+    },
+    {
+      "rule_type": "general",
+      "rule_text": "Provider resource document - see Privacyopen_in_new.pdf",
+      "payer": "United Healthcare",
+      "source_document": "Privacyopen_in_new.pdf",
+      "effective_date": "2025-01-01"
+    },
+    {
+      "rule_type": "general",
+      "rule_text": "Provider resource document - see TOU-UHCPROVIDER-COM-EN.pdf",
+      "payer": "United Healthcare",
+      "source_document": "TOU-UHCPROVIDER-COM-EN.pdf",
+      "effective_date": "2025-01-01"
+    }
+  ],
+  "cigna_targeted_rules": {
+    "note": "117 additional PDFs discovered via specialized Cigna crawler",
+    "breakdown": {
+      "appeals": 58,
+      "prior_authorization": 37,
+      "billing_nuances": 22,
+      "timely_filing": 0
+    },
+    "geographic_coverage": "Multi-state forms including AZ, CA, FL, IL, MA, NM, TX, VT, WV",
+    "special_categories": [
+      "State-specific prior authorization forms",
+      "Multilingual appeals documentation (English, Spanish, Chinese)",
+      "Behavioral health specialized forms",
+      "Medicare-specific documentation",
+      "FSA/HRA reimbursement forms"
+    ]
+  },
+  "technical_challenges_summary": {
+    "successful_payers": ["United Healthcare", "CountyCare", "Cigna"],
+    "failed_payers": {
+      "Anthem": "Authentication barriers, 0 PDFs discovered",
+      "Aetna": "Bot protection detected, 0 PDFs discovered", 
+      "Humana": "Complex site architecture, 0 PDFs discovered"
+    },
+    "crawler_effectiveness": {
+      "targeted_approach": "Highly effective for accessible portals",
+      "unified_approach": "Limited success, better for initial discovery",
+      "individual_specialized": "Required for complex sites like Cigna"
+    }
+  }
+}

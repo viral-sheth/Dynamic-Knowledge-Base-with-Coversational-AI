@@ -1,0 +1,21 @@
+# Core RAG dependencies
+sentence-transformers>=2.2.2
+chromadb>=0.4.22
+anthropic>=0.40.0
+numpy>=1.24.0
+huggingface_hub>=0.23.0
+groq>=0.9.0
+docling>=0.5.1
+requests>=2.31.0
+openai>=1.50.0
+
+# PDF processing (if not already installed)
+PyPDF2>=3.0.0
+pdfplumber>=0.10.0
+
+# Utilities
+tqdm>=4.65.0
+python-dotenv>=1.0.0
+
+# Optional: Better performance
+# torch>=2.0.0  # Uncomment for GPU support
